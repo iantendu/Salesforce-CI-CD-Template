@@ -1,7 +1,7 @@
 public with sharing class CarController {
 
 
-
+  //The data provided here is from Car Json
     public class Filters{
         @AuraEnabled
         public String searchKey {get;set;}
