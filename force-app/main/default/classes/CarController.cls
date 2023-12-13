@@ -1,6 +1,6 @@
 public with sharing class CarController {
 
-    //Wrapper class
+    //Wrapper class and added advantages well
 
     public class Filters{
         @AuraEnabled
