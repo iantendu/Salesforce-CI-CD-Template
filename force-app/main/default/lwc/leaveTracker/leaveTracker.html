@@ -1,0 +1,22 @@
+<!--
+  @description       : 
+  @author            : ChangeMeIn@UserSettingsUnder.SFDoc
+  @group             : 
+  @last modified on  : 08-27-2023
+  @last modified by  : 
+-->
+<template>
+    <lightning-card>
+        <div class="slds-m-around_medium">
+            <lightning-tabset>
+                <lightning-tab title="My Leaves" label="My Leaves">
+                <c-my-leaves onrefreshleaverequests={refreshLeaveRequestHandler} ></c-my-leaves>
+                </lightning-tab>
+                <lightning-tab title="Leave Requests" label="Leave Requests">
+                <c-leave-requests lwc:ref="myLeavesComp"></c-leave-requests>
+                </lightning-tab>
+            </lightning-tabset>
+        </div>      
+    </lightning-card>
+    
+</template>

@@ -1,0 +1,23 @@
+<!--
+  @description       : 
+  @author            : 
+  @group             : 
+  @last modified on  : 08-28-2023
+  @last modified by  : 
+-->
+<template>
+    <lightning-card title="Custom Validation in lighting edit form">
+        <lightning-record-edit-form
+        onsuccess={successHandler}
+        onsubmit={handleSubmit}
+        object-api-name={objectName}>
+        <lightning-input label="Name"
+        value={inputValue}
+        onkeyup={handleChange}
+        class="slds-m-bottom_x-small"></lightning-input>
+        <lightning-button class="slds-m-top_small" type="submit" label="Create Account"></lightning-button>
+    
+    </lightning-record-edit-form>
+    </lightning-card>
+    
+</template>
